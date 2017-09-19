@@ -8,19 +8,19 @@ class BoostProcessConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["process"]
-    requires =  "Boost.Algorithm/1.65.1@bincrafters/testing", \
-                      "Boost.Asio/1.65.1@bincrafters/testing", \
-                      "Boost.Config/1.65.1@bincrafters/testing", \
-                      "Boost.Core/1.65.1@bincrafters/testing", \
-                      "Boost.Filesystem/1.65.1@bincrafters/testing", \
-                      "Boost.Fusion/1.65.1@bincrafters/testing", \
-                      "Boost.Iterator/1.65.1@bincrafters/testing", \
-                      "Boost.Move/1.65.1@bincrafters/testing", \
-                      "Boost.Optional/1.65.1@bincrafters/testing", \
-                      "Boost.System/1.65.1@bincrafters/testing", \
-                      "Boost.Tokenizer/1.65.1@bincrafters/testing", \
-                      "Boost.Type_Index/1.65.1@bincrafters/testing", \
-                      "Boost.Winapi/1.65.1@bincrafters/testing"
+    requires =  "Boost.Algorithm/1.65.1@bincrafters/stable", \
+                      "Boost.Asio/1.65.1@bincrafters/stable", \
+                      "Boost.Config/1.65.1@bincrafters/stable", \
+                      "Boost.Core/1.65.1@bincrafters/stable", \
+                      "Boost.Filesystem/1.65.1@bincrafters/stable", \
+                      "Boost.Fusion/1.65.1@bincrafters/stable", \
+                      "Boost.Iterator/1.65.1@bincrafters/stable", \
+                      "Boost.Move/1.65.1@bincrafters/stable", \
+                      "Boost.Optional/1.65.1@bincrafters/stable", \
+                      "Boost.System/1.65.1@bincrafters/stable", \
+                      "Boost.Tokenizer/1.65.1@bincrafters/stable", \
+                      "Boost.Type_Index/1.65.1@bincrafters/stable", \
+                      "Boost.Winapi/1.65.1@bincrafters/stable"
 
                       #algorithm9 asio14 config0 core2 filesystem8 fusion5 iterator5 move3 optional5 system3 tokenizer6 type_index5 winapi1
                       
