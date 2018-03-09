@@ -6,6 +6,11 @@ The packages generated with this **conanfile** can be found in [Bintray](https:/
 
 ## For Users: Use this package
 
+### Add Remote
+If you haven't yet added bincrafters as a remote, then you may do so using
+
+    $ conan remote add bincrafters "https://api.bintray.com/conan/bincrafters/public-conan"
+
 ### Basic setup
 
     $ conan install Boost.Process/1.65.1@bincrafters/stable
